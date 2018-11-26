@@ -32,4 +32,4 @@ if (message.content === x_x) {
    hack.setIcon(pic)
        
        
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN)
